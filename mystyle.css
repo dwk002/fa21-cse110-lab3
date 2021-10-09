@@ -1,0 +1,109 @@
+@media screen and (max-width: 500px){
+    * {
+        color: darkblue;
+    }
+}
+* {
+    font-family: 'Roboto';
+}
+
+.GrandTitle {
+    position: static;
+    border-width: 5Q;
+    border-style: solid;
+    border-color: rgb(100,150,255);
+    border-radius:  0.4em;
+    margin-top: 1in;
+    margin-bottom: 2cm;
+    margin-left: 0.5rem;
+    margin-right: 0.2ex;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#QuickNav {
+    position: relative;
+    left: 30px;
+    text-decoration: wavy underline hsl(60, 100%, 50%);
+    margin: 10px 3px 30px 2px;
+}
+
+ol > li:active {
+    background-color: indigo;
+}
+
+section h4:hover {
+    background-color: grey;
+}
+
+h2, h3 {
+    margin: auto;
+    border: 5px 1px 10px 0px;
+    padding: 2px 2px 10px 0px;
+}
+
+h2[title], h3[title] {
+    height: 20px;
+    width: 10cm;
+    max-width: 20cm;
+    min-width: 10px; 
+}
+
+
+#QuickNav.nav {
+    display: inline;
+    
+}
+
+#records{
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-evenly;
+}
+#rec{
+    flex-grow: 1;
+}
+audio ~ video { 
+    order: 4;
+    flex-grow: 1;
+}
+
+ul{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+    background-color: rgb(141, 110, 226);
+    /*20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;*/
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+}
+
+#a{
+    grid-area: one;
+}
+#b{
+    grid-area: two;
+}
+
+#c{
+    grid-area: three;
+}
+
+#d{
+    grid-area: four;
+}
+#e{
+    grid-area: five;
+}
+
+h4 + details{
+    background-color: lightpink;
+}
