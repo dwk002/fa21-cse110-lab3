@@ -2,45 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Do Kim's Meeting Minutes</title>
     <link rel="icon" href="Other/favicon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+    
     <style>
+        /*Uses Inline CSS for background color*/
         body {
-            background-color: #85DCBA
+            background-color: #85DCBA;
         }
     </style>
 </head>
 <body>
     <header>
-        <div>Quick Navigation</div>
+        <div id="QuickNav" class="nav" >Quick Navigation</div>
       <nav>
-        <ol>
-          <li><a href="#attendance">Attendance</a></li>
-          <li><a href="#agenda">Agenda</a></li>
-          <li><a href="#previous">Previous Meeting</a></li>
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#new">New Business</a></li>
-          <li><a href="#additional">Additional Comments</a></li>
-          <li><a href="#picture">Picture Documents</a></li>
-          <li><a href="#records">Meeting audio/video</a></li>
-          <li><a href="#next">Next Meeting Date</a></li>
-          <li><a href="#forms">Random Forms</a></li>
+        <ol id="Grid">
+          <li id="one"><a href="#attendance">Attendance</a></li>
+          <li id="two"><a href="#agenda">Agenda</a></li>
+          <li id="three"><a href="#previous">Previous Meeting</a></li>
+          <li id="four"><a href="#summary">Summary</a></li>
+          <li id="five"><a href="#new">New Business</a></li>
+          <li id="six"><a href="#additional">Additional Comments</a></li>
+          <li id="seven"><a href="#picture">Picture Documents</a></li>
+          <li id="eight"><a href="#records">Meeting audio/video</a></li>
+          <li id="nine"><a href="#next">Next Meeting Date</a></li>
+          <li id="ten"><a href="#forms">Random Forms</a></li>
         </ol>
       </nav>
     </header>
 
     <main>
-        <h1>2077 Game Jam Meeting Minutes</h1>
-        <h2>Meeting #2: Main Brainstorm</h2>
-        <h3>December 10th, 2077</h3>
+        
+        <h1 class="GrandTitle" style="color:red;text-align: center;">2077 Game Jam Meeting Minutes</h1>
+        <h2 title="sub">Meeting #2: Main Brainstorm</h2>
+        <h3 title="sub">December 10th, 2077</h3>
         <section id="attendance">
-            <h4>1. In Attendance:</h4>
+            <h4 id="attend">1. In Attendance:</h4>
                 <ul>
-                    <li> <b>Do James Kim</b> </li>
-                    <li> <b>Hideo Kojima</b> </li>
-                    <li> <b>Cory Barlog</b> </li>
-                    <li> <b>Spencer Wan</b> </li>
-                    <li> <b>Lena Raine</b> </li>
+                    <li id="a"> <b>Do James Kim</b> </li>
+                    <li id="b"> <b>Hideo Kojima</b> </li>
+                    <li id="c"> <b>Cory Barlog</b> </li>
+                    <li id="d"> <b>Spencer Wan</b> </li>
+                    <li id="e"> <b>Lena Raine</b> </li>
                 </ul>
         </section>
         <section id="agenda">
@@ -74,7 +81,7 @@
         </section>
 
         <section id="records">
-            <h4>8. Audio and Video file of meeting</h4>
+            <h4 id="rec">8. Audio and Video file of meeting</h4>
             Video:
             <video width = "500" height = "300" controls>
                 <source src = "Other/30SecVideo.mp4" type = "video/mp4">
