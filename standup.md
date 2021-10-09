@@ -1,5 +1,5 @@
-#Group 21#
-##Stand-up Meeting##
+# Group 21
+## Stand-up Meeting
 
 **1. Name:**
 
